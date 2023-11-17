@@ -1,6 +1,6 @@
 const Infolist = [
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "James King",
     position: "President and Ceo",
     office: "+10000000000",
@@ -9,7 +9,7 @@ const Infolist = [
     email: "john@example.com",
   },
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "Julia Taylor",
     position: "UX Designer",
     office: "+0000000000",
@@ -18,7 +18,7 @@ const Infolist = [
     email: "Julia@example.com",
   },
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "Eugene Lee",
     position: "CFO",
     office: "+0000000000",
@@ -27,7 +27,7 @@ const Infolist = [
     email: "Eugene@example.com",
   },
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "John Williams",
     position: "Vp of Engineering",
     office: "+0000000000",
@@ -36,7 +36,7 @@ const Infolist = [
     email: "John@example.com",
   },
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "Ray Moore",
     position: "VP of Sale",
     office: "+10000000000",
@@ -46,7 +46,7 @@ const Infolist = [
   },
 
   {
-    image: "",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     name: "Paul Jones",
     position: "VP of Sale",
     office: "+0000000000",

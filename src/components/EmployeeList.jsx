@@ -1,10 +1,14 @@
 import React from 'react';
+import EmployeeListItem from './EmployeeListItem';
+import Infolist from '../models/Infolist'; // Update the import path accordingly
 
-function EmployeeList({ employees }) {
+function EmployeeList() {
   return (
-    <li>
-     {employees.map((el)=>{return <h1>{el.name}</h1>}) }
-    </li>
+    <div>
+      {Infolist.map((employee, index) => (
+        <EmployeeListItem key={index} employee={employee} />
+      ))}
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@ import EmployeeListItem from './EmployeeListItem'
 function Homepage(props) {
   return (
     <div className='Homepage'>
-      <Header />
+      <Header txt={'Employee Directory'}/>
       <SearchBar/>
       <EmployeeList employees={props.employees} />
       <EmployeeListItem/>
