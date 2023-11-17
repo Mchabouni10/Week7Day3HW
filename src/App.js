@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
+import Homepage from './components/Homepage';
+import Infolist from './models/Infolist'
+import EmployeePage from './components/EmployeePage';
+
+import { useState } from 'react';
+
 import './App.css';
 
 function App() {
+  const [data, setData] = useState(Infolist)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Homepage employees={data}/><EmployeePage employees={data}/>
     </div>
   );
 }
