@@ -3,7 +3,7 @@ import React from 'react';
 function Header(props) {
   return (
     <header>
-      <h2>{props.txt}</h2>
+      <div className='HeaderP'>{props.txt}</div>
     </header>
   );
 }

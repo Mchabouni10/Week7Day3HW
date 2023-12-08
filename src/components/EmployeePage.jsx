@@ -1,17 +1,30 @@
-import React from 'react';
-import Header from './Header';
-import EmployeeList from './EmployeeList';
-import EmployeeListItem from './EmployeeListItem';
-import EmployeeInfo from './EmployeeInfo';
+import React, { useContext } from "react";
+import Header from "./Header";
+import { EmployeeContext } from "../contexts/EmployeeContext";
 
-function EmployeePage (props) {
-
+function EmployeePage() {
+  const { worker } = useContext(EmployeeContext);
   return (
-    <div className='EmployeePage'>
-      <Header txt={'employee'} />
-      {/* <EmployeeList employees={props.employees} /> */}
-      <EmployeeInfo/>
-    </div>
+      
+      <div className="EmployeePage">
+      <Header txt={"Employee Info"} />
+          <h2 className="PageName">{worker.name}</h2>
+          <img
+            className="ProfileImageRight"
+            src={worker.image}
+            alt={worker.name}
+          />
+          <p>
+            Office: <strong>{worker.office}</strong>
+          </p>
+          <p>
+            SMS: <strong>{worker.sms}</strong>
+          </p>
+          <p>
+            Email: <strong>{worker.email}</strong>
+          </p>
+        
+      </div>
   );
 }
 

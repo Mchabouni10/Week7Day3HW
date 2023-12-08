@@ -11,7 +11,8 @@ function App() {
   const [data, setData] = useState(Infolist)
   return (
     <div className="App">
-     <Homepage employees={data}/><EmployeePage employees={data}/>
+     <Homepage />
+     <EmployeePage />
     </div>
   );
 }

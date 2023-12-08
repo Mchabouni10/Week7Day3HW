@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
 
-function SearchBar() {
+function SearchBar({ setSearchQuery }) {
   return (
-    <div className='SearchBar'>
-      <input type="text" placeholder="Search for an employee" />
+    <div className="SearchBar">
+      <input
+        className="SearchInput"
+        type="text"
+        placeholder="Search for an employee"
+        onChange={(e) => setSearchQuery(e.target.value)}
+      />
     </div>
   );
 }

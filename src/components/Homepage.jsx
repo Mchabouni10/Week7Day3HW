@@ -8,9 +8,9 @@ function Homepage(props) {
   return (
     <div className='Homepage'>
       <Header txt={'Employee Directory'}/>
-      <SearchBar/>
+      <SearchBar />
       <EmployeeList employees={props.employees} />
-      <EmployeeListItem/>
+      <EmployeeListItem />
     </div>
   )
 }
